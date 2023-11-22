@@ -1,0 +1,99 @@
+body{
+    font-size: 50px;
+}
+
+#clickbutton
+{
+    background-color: lightgreen;
+    font-weight: bold;
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    display: initial;
+}
+
+#speedbutton
+{
+    background-color: yellow;
+    font-weight: bold;
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    text-align: center;
+    border-color: black;
+    display: initial;
+}
+
+#multiplier
+{
+    background-color: rgb(160, 160, 241);
+    font-weight: bold;
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    text-align: center;
+    border-color: black;
+    display: initial;
+}
+#healing
+{
+    background-color: rgb(255, 127, 127);
+    font-weight: bold;
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    text-align: center;
+    border-color: black;
+    display: initial;
+}
+
+
+
+
+
+#coinamount
+{
+    font-weight: bold;
+    width: 500px;
+    height: 75px;
+    position: absolute;
+    top: 85%;
+    left: 59%;
+    text-align: center;
+    border-color: black;
+    display: initial;
+    
+}
+
+#restart
+{
+    font-weight: bold;
+    width: 1920px;
+    height: 950px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    border-color: black;
+    display: none;
+}
+#score
+{
+    font-weight: bold;
+    width: 500px;
+    height: 75px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+    border-color: black;
+    display: none;
+}
