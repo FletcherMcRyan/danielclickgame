@@ -71,7 +71,7 @@ var gamerange =
     },
     stop : function() 
     {
-        var score = money * 10 + left * 100 + right * 100 + up * 100 + down * 100 + plus * 10;
+        var score = money + left * 100 + right * 100 + up * 100 + down * 100 + plus * 100;
         document.getElementById("restart").style.display = "initial";
         document.getElementById("restart").innerHTML = "REFRESH TO RESTART | Final Score: " + score;
         document.getElementById("clickbutton").style.display = "none";
