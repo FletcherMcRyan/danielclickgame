@@ -77,7 +77,7 @@ var gamerange =
         document.getElementById("clickbutton").style.display = "none";
         document.getElementById("speedbutton").style.display = "none";
         document.getElementById("healing").style.display = "none";
-        document.getElementById("multiplier").style.display = "none";
+        document.getElementById("plus").style.display = "none";
         document.getElementById("coinamount").style.display = "none";
         music.stop();
         clearInterval(this.interval);
