@@ -7,7 +7,7 @@ var left = 1;
 var right = 1;
 var up = 1;
 var down = 1;
-var score = money + multiplier + left + right + up + down * 100;
+var score = money * 10 + multiplier * 100 + left * 100 + right * 100 + up * 100 + down * 100;
 
 
 function mySecondFunction()
