@@ -14,7 +14,7 @@ function mySecondFunction()
     if (money >= 400)
     {
         money = money - 400;
-        plus = multiplier + 5;
+        plus = plus + 5;
     }
 }
 
