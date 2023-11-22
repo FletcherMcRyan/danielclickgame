@@ -11,9 +11,9 @@ var down = 1;
 
 function mySecondFunction()
 {
-    if (money >= 500)
+    if (money >= 400)
     {
-        money = money - 500;
+        money = money - 400;
         multiplier = multiplier * 2;
     }
 }
