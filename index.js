@@ -1,5 +1,5 @@
 let money = 0;
-let multiplier = 5;
+let plus = 5;
 var enemies = [];
 var hit;
 var music;
@@ -14,7 +14,7 @@ function mySecondFunction()
     if (money >= 400)
     {
         money = money - 400;
-        multiplier = multiplier + 5;
+        plus = multiplier + 5;
     }
 }
 
@@ -22,7 +22,7 @@ function mySecondFunction()
 
 function myFunction()
 {
-    money = money + multiplier;
+    money = money + plus;
     document.getElementById("coinamount").innerHTML = "Daniel Points: " + money;
 }
 
@@ -71,7 +71,7 @@ var gamerange =
     },
     stop : function() 
     {
-        var score = money * 10 + left * 100 + right * 100 + up * 100 + down * 100 + multiplier * 10;
+        var score = money * 10 + left * 100 + right * 100 + up * 100 + down * 100 + plus * 10;
         document.getElementById("restart").style.display = "initial";
         document.getElementById("restart").innerHTML = "REFRESH TO RESTART | Final Score: " + score;
         document.getElementById("clickbutton").style.display = "none";
