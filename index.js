@@ -11,9 +11,9 @@ var down = 1;
 
 function mySecondFunction()
 {
-    if (money >= 1500)
+    if (money >= 500)
     {
-        money = money - 1500;
+        money = money - 500;
         multiplier = multiplier * 2;
     }
 }
@@ -248,9 +248,9 @@ function sound(src) {
   function speedfunction()
   {
 
-    if (money >= 500)
+    if (money >= 200)
     {
-        money = money - 500;
+        money = money - 200;
         left = left + 1;
         right = right + 1;
         down = down + 1;
@@ -265,9 +265,9 @@ function sound(src) {
     
     
     
-    if (money >= 500)
+    if (money >= 150)
     {
-        money = money - 500;
+        money = money - 150;
         bar.width = bar.width + 150;
     }
   }
