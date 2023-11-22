@@ -7,6 +7,7 @@ var left = 1;
 var right = 1;
 var up = 1;
 var down = 1;
+var score = money + multiplier + left + right + up + down * 100;
 
 
 function mySecondFunction()
@@ -72,7 +73,7 @@ var gamerange =
     stop : function() 
     {
         document.getElementById("restart").style.display = "initial";
-        document.getElementById("restart").innerHTML = "REFRESH TO RESTART | Final Score: " + money;
+        document.getElementById("restart").innerHTML = "REFRESH TO RESTART | Final Score: " + score;
         document.getElementById("clickbutton").style.display = "none";
         document.getElementById("speedbutton").style.display = "none";
         document.getElementById("healing").style.display = "none";
