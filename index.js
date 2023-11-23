@@ -168,6 +168,7 @@ function component(width, height, color, x, y, type)
 
 function updategamerange()
  {
+     document.getElementById("coinamount").innerHTML = "Daniel Points: " + money;
     //if (pic.x == )
 
     if (bar.width <= 0)
