@@ -23,7 +23,6 @@ function mySecondFunction()
 function myFunction()
 {
     money = money + plus;
-    document.getElementById("coinamount").innerHTML = "Daniel Points: " + money;
 }
 
 
