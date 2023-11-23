@@ -6,8 +6,8 @@ body{
 {
     background-color: lightgreen;
     font-weight: bold;
-    width: 150px;
-    height: 75px;
+    width: 275px;
+    height: 80px;
     position: absolute;
     top: 90%;
     left: 45%;
@@ -66,7 +66,7 @@ body{
     height: 75px;
     position: absolute;
     top: 85%;
-    left: 59%;
+    left: 58%;
     text-align: center;
     border-color: black;
     display: initial;
@@ -96,4 +96,43 @@ body{
     text-align: center;
     border-color: black;
     display: none;
+}
+
+
+#speedamount
+{
+    width: 1x;
+    font-size:20px;
+    height: 1px;
+    position: absolute;
+    top: 85%;
+    left: 35.5%;
+    text-align: center;
+    border-color: black;
+    display: initial;
+}
+#clickingamount
+{
+    width: 1x;
+    font-size:20px;
+    height: 1px;
+    position: absolute;
+    top: 85%;
+    left: 49.25%;
+    text-align: center;
+    border-color: black;
+    display: initial;
+}
+
+#totalscore
+{
+    width: 1x;
+    font-size:19px;
+    height: 1px;
+    position: absolute;
+    top: 90%;
+    left: 0.25%;
+    text-align: center;
+    border-color: black;
+    display: initial;
 }
