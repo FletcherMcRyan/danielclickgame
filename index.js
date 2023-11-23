@@ -3,10 +3,10 @@ let plus = 5;
 var enemies = [];
 var hit;
 var music;
-var left = 1;
-var right = 1;
-var up = 1;
-var down = 1;
+var left = 0.5;
+var right = 0.5;
+var up = 0.5;
+var down = 0.5;
 
 
 function mySecondFunction()
@@ -70,7 +70,7 @@ var gamerange =
     },
     stop : function() 
     {
-        var score = money + left * 10 + right * 10 + up * 10 + down * 10 + plus * 10;
+        var score = money + left * 25 + right * 25 + up *25 + down * 25 + plus * 100 - 550;
         document.getElementById("restart").style.display = "initial";
         document.getElementById("restart").innerHTML = "REFRESH TO RESTART | Final Score: " + score;
         document.getElementById("clickbutton").style.display = "none";
@@ -168,6 +168,10 @@ function component(width, height, color, x, y, type)
 
 function updategamerange()
  {
+  var score = money + left * 25 + right * 25 + up * 25 + down * 25 + plus * 100 - 550;
+  document.getElementById("totalscore").innerHTML = "TOTAL SCORE: " + score;
+  document.getElementById("speedamount").innerHTML = "speed score: " + up;
+     document.getElementById("clickingamount").innerHTML = "click score: " + plus;
      document.getElementById("coinamount").innerHTML = "Daniel Points: " + money;
     //if (pic.x == )
 
@@ -252,10 +256,10 @@ function sound(src) {
     if (money >= 200)
     {
         money = money - 200;
-        left = left + 1;
-        right = right + 1;
-        down = down + 1;
-        up = up + 1;
+        left = left + 0.5;
+        right = right + 0.5;
+        down = down + 0.5;
+        up = up + 0.5;
 
     }
   }
