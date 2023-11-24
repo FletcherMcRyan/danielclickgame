@@ -75,6 +75,7 @@ body{
 
 #restart
 {
+    opacity: 85%;
     font-weight: bold;
     width: 1920px;
     height: 950px;
@@ -84,6 +85,8 @@ body{
     text-align: center;
     border-color: black;
     display: none;
+    color: red;
+    font-size: 70px;
 }
 #score
 {
@@ -132,6 +135,20 @@ body{
     position: absolute;
     top: 90%;
     left: 0.25%;
+    text-align: center;
+    border-color: black;
+    display: initial;
+}
+
+
+#controls
+{
+    width: 1x;
+    font-size:19px;
+    height: 1px;
+    position: absolute;
+    top: 90%;
+    left: 90%;
     text-align: center;
     border-color: black;
     display: initial;
