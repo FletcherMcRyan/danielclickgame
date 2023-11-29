@@ -9,7 +9,7 @@ body{
     width: 275px;
     height: 80px;
     position: absolute;
-    top: 90%;
+    margin-top: 44vw;
     margin-left: -54.25vw;
     display: initial;
 }
@@ -24,7 +24,7 @@ body{
     width: 150px;
     height: 75px;
     position: absolute;
-    top: 90%;
+    margin-top: 44vw;
     margin-left: -65vw;
     text-align: center;
     border-color: black;
@@ -43,7 +43,7 @@ body{
     width: 150px;
     height: 75px;
     position: absolute;
-    top: 90%;
+    margin-top: 44vw;
     margin-left: -75vw;
     text-align: center;
     border-color: black;
@@ -60,7 +60,7 @@ body{
     width: 150px;
     height: 75px;
     position: absolute;
-    top: 90%;
+    margin-top: 44vw;
     margin-left: -85vw;
     text-align: center;
     border-color: black;
@@ -81,7 +81,7 @@ body{
     width: 500px;
     height: 75px;
     position: absolute;
-    top: 85%;
+    margin-top: 44vw;
     margin-left: -40vw;
     text-align: center;
     border-color: black;
@@ -110,7 +110,7 @@ body{
     width: 500px;
     height: 75px;
     position: absolute;
-    top: 50%;
+    margin-top: 44vw;
     margin-left: 40%;
     text-align: center;
     border-color: black;
@@ -124,7 +124,7 @@ body{
     font-size:20px;
     height: 1px;
     position: absolute;
-    top: 85%;
+    margin-top: 42.5vw;
     margin-left:-64vw;
     text-align: center;
     border-color: black;
@@ -136,7 +136,7 @@ body{
     font-size:20px;
     height: 1px;
     position: absolute;
-    top: 85%;
+    margin-top: 42.5vw;
     margin-left: -50vw;
     text-align: center;
     border-color: black;
@@ -149,7 +149,7 @@ body{
     font-size:19px;
     height: 1px;
     position: absolute;
-    top: 90%;
+    margin-top: 45vw;
     margin-left:-99vw;
     text-align: center;
     border-color: black;
@@ -163,7 +163,7 @@ body{
     font-size:19px;
     height: 1px;
     position: absolute;
-    top: 90%;
+    margin-top: 45vw;
     margin-left: -10vw;
     text-align: center;
     border-color: black;
